@@ -1,5 +1,4 @@
 ## common
-
 ```
 api/getAncientPoetries?robotId='robotId'
 
