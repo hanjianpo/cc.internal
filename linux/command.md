@@ -1,3 +1,7 @@
+## common
+
+> scp -r java_pid653811.hprof web@10.223.53.140:/Users/web/dev/hprof/
+
 
 ## mac系统的环境变量修改
 ### 加载顺序为
