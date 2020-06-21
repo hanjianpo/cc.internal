@@ -27,17 +27,13 @@ gitbook可以方便的将所有markdown源文件转换成网页，便于快速�
 > $ npm install gitbook-cli -g
 
 ## gitbook 使用
-> cd /..../ai-whitebooks
+> cd /.../mddir
 
-> gitbook init // 可不执行此命令，因为summary.md已经存在
+> gitbook init // summary.md已经存在时可不执行此命令
 
 > gitbook build
 
-![gitbookbuild](pics/gitbook_build.png)
-
 > gitbook serve
-
-![gitbookserve](pics/gitbook_serve.png)
 
 ## 浏览器访问
 > 浏览器访问 http://localhost:4000/ ，即可在浏览器查看内容展示
