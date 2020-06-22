@@ -11,3 +11,20 @@
 server.compression.enabled=true
 server.compression.mime-types=application/json,application/xml,text/html,text/xml,text/plain
 ```
+
+## Configuring gzip encoding for play
+```
+To enable the gzip filter, add the Play filters project to your libraryDependencies in build.sbt:
+libraryDependencies += filters
+
+Now add the gzip filter to your filters, which is typically done by creating a Filters class in the root of your project:
+import javax.inject.Inject
+import play.api.http.DefaultHttpFilters
+import play.filters.gzip.GzipFilter
+class Filters @Inject() (gzipFilter: GzipFilter) extends DefaultHttpFilters(gzipFilter)
+
+The Filters class can either be in the root package, or if it has another name or is in another package, needs to be configured using play.http.filters in application.conf:
+play.http.filters = "filters.MyFilters"
+
+https://www.playframework.com/documentation/2.5.x/GzipEncoding
+```
