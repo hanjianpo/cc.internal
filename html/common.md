@@ -4,3 +4,10 @@
 > 服务端在收到请求之后，如果发现请求头中含有Accept-Encoding字段，并且支持该类型的压缩，就对响应报文压缩之后返回给客户端，并且携带Content-Encoding:gzip消息头，表示响应报文是根据该格式压缩过的
 
 > 客户端接收到请求之后，先判断是否有Content-Encoding消息头，如果有，按该格式解压报文。否则按正常报文处理
+
+## 在spring boot中开启gzip
+```
+在application.properties 中加入如下配置即可
+server.compression.enabled=true
+server.compression.mime-types=application/json,application/xml,text/html,text/xml,text/plain
+```
