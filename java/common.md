@@ -29,3 +29,8 @@ public final void join() throws InterruptedException
 public static native void yield()
 
 ```
+## thread daemon
+```
+java应用内部，如果只有守护线程，则java虚拟机就会自然退出
+即使main线程退出，如果还有非daemon线程，则java虚拟机不会退出
+```
