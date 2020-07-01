@@ -4,4 +4,10 @@ https://alibaba.github.io/arthas   arthas，Java诊断工具
 
 https://www.jianshu.com/p/b9186dbebe8e   happens-before
 
+https://www.jianshu.com/p/b3ed962b382c   Linux中分析超大JVM dump文件，拷贝的时候记得按照文件时间戳顺序来
+
+https://gceasy.io/   gc analyse
+
+https://blog.csdn.net/FS1360472174/article/details/81051479   JVM堆外内存问题排查
+
 ```
