@@ -1,8 +1,8 @@
 ## common
 ```
-https://www.cnblogs.com/txmfz   莫待樱开春来也踏雪觅 的主页，java相关博客
+https://www.cnblogs.com/lyggqm/p/11502835.html   curl命令使用方式
+https://www.cnblogs.com/fan-gx/p/12321351.html
 
-https://www.zhihu.com/question/27654579?sort=created
-https://www.uml-diagrams.org/java-thread-uml-state-machine-diagram-example.html   线程状态转换
+https://imququ.com/post/four-ways-to-post-data-in-http.html   post提交数据方式，4种
 
 ```
