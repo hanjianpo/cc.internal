@@ -28,3 +28,8 @@ play.http.filters = "filters.MyFilters"
 
 https://www.playframework.com/documentation/2.5.x/GzipEncoding
 ```
+
+## CSRF
+```
+Cross-Site Request Forgery protection
+```
