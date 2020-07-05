@@ -1,5 +1,13 @@
 ## common
 ```
+https://www.infoq.cn/    infoq
+
+https://www.nowcoder.com/    牛客
+
+https://weekly.manong.io/issues/310    manong
+
+https://www.jdon.com/ddd.html    领域驱动设计
+
 https://www.cnblogs.com/txmfz   莫待樱开春来也踏雪觅 的主页，java相关博客
 
 https://www.ibm.com/developerworks/cn/topics/   ibm developer
