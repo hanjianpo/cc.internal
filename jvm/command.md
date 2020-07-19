@@ -4,6 +4,8 @@ jmap -dump:format=b,file=xxxxx/yyyyy 442491
 jmap -histo 962198
 jmap -histo:live 446481
 jstat -gcutil 122327 1000
+
+-XX:NativeMemoryTracking=[off | summary | detail]
 jcmd 719932 VM.native_memory summary scale=MB
 
 jinfo -flags 390032
